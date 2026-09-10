@@ -21,3 +21,8 @@ button {
   border: none;
   cursor: pointer;
 }
+
+#error {
+  color: red;
+  margin-top: 10px;
+}
