@@ -12,16 +12,19 @@
       <input type="text" id="employeeName" name="employeeName" />
 
       <label for="hoursWorked">Hours Worked:</label>
-      <input type="number" id="hoursWorked" name="hoursWorked" />
+      <input type="number" id="hoursWorked" name="hoursWorked" min="0" />
 
       <label for="ratePerHour">Rate per Hour:</label>
-      <input type="number" id="ratePerHour" name="ratePerHour" />
+      <input type="number" id="ratePerHour" name="ratePerHour" min="0" />
 
       <button type="button" id="calculateBtn">Calculate Pay</button>
+
+      <button type="button" id="clearBtn">Clear</button>
     </form>
 
     <div id="result"></div>
-
+<div id="error"></div>
+<p>Hello</p>
     <script src="script.js"></script>
   </body>
 </html>
